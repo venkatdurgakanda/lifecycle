@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mood-Based Music Recommender Flowchart</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .flowchart {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+
+    .box {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px 30px;
+      margin: 15px 0;
+      border-radius: 10px;
+      text-align: center;
+      width: 280px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      font-weight: bold;
+    }
+
+    .arrow {
+      width: 2px;
+      height: 30px;
+      background-color: #4CAF50;
+      margin: 0;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #333;
+    }
+
+    .description {
+      font-size: 13px;
+      color: #eee;
+      font-weight: normal;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="flowchart">
+    <h2>Mood-Based Music Recommender – Flowchart</h2>
+
+    <div class="box">
+      Start Application
+      <div class="description">User launches app or service</div>
+    </div>
+    <div class="arrow"></div>
+
+    <div class="box">
+      Capture User Input
+      <div class="description">Text, facial image, or voice input</div>
+    </div>
+    <div class="arrow"></div>
+
+    <div class="box">
+      Detect Mood
+      <div class="description">Use AI/ML to analyze emotion from input</div>
+    </div>
+    <div class="arrow"></div>
+
+    <div class="box">
+      Map Mood to Genre
+      <div class="description">Happy → Pop, Sad → Acoustic, Angry → Rock</div>
+    </div>
+    <div class="arrow"></div>
+
+    <div class="box">
+      Query Music Database
+      <div class="description">Fetch songs using Spotify or other APIs</div>
+    </div>
+    <div class="arrow"></div>
+
+    <div class="box">
+      Filter & Personalize
+      <div class="description">Apply user preferences and history</div>
+    </div>
+    <div class="arrow"></div>
+
+    <div class="box">
+      Recommend Songs
+      <div class="description">Display songs to user based on mood</div>
+    </div>
+    <div class="arrow"></div>
+
+    <div class="box">
+      Get Feedback (Optional)
+      <div class="description">User likes, skips, or rates music</div>
+    </div>
+    <div class="arrow"></div>
+
+    <div class="box">
+      Update Model / Profile
+      <div class="description">Improve suggestions based on feedback</div>
+    </div>
+    <div class="arrow"></div>
+
+    <div class="box">
+      End
+      <div class="description">Session complete or continue loop</div>
+    </div>
+  </div>
+
+</body>
+</html>
